@@ -1,0 +1,140 @@
+#page-wrap{
+    width:950px;
+    margin:10px auto;
+}
+
+.jumbotron{
+    background-image:url(./images/laithaiemblem.jpg);
+    background-repeat: no-repeat;
+    margin-top:0;
+    text-align:right;
+    line-height: 1.8;
+    height:100px;
+    width:100%;
+}
+.Fresh{
+  text-align: right;
+  color: white;
+}
+h5{
+    margin-top: 0;
+}
+header p{
+    float:right;
+    margin-right: 250px;
+}
+span{
+    font-style: italic;
+}
+nav{
+
+      z-index:9999;
+      width: 80%;
+      height:50px;
+}
+ul {
+    list-style-type: none;
+    margin-top: 200px;
+    padding: 0;
+    background-color:#5d7a50;
+    position: absolute;
+    top: 0;
+    width: 70%;
+ }
+li {
+    float: left;
+    font-size: small;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color:#008000;
+}
+body{
+	  font-family: verdana, arial, Helvetica, sans-serif;
+     background-color: #000000;
+     color: #ffffff;
+     border: 5px solid #bbea54;
+  }
+
+#maincontent h1{
+  text-align: center;
+  padding: 25px;
+}
+
+#maincontent{
+    width: 100%;
+    float: right;
+    top:250px;
+    padding:25px;
+}
+.delicious{
+  padding:100px:
+  text-align: center;
+  color:#f2ae1d;
+}
+.show{
+  padding-top: 2px;
+}
+img{
+    border:10px solid #bbea54;
+    width: 100%;
+    display:block;
+    margin: auto;
+}
+/* Slideshow container */
+.slideshow-container {
+ max-width: 1000px;
+ position: relative;
+ margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+   display: none;
+}
+.text {
+ color: black;
+ font-size: 15px;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+ color: #f2f2f2;
+ font-size: 12px;
+ padding: 8px 12px;
+ position: absolute;
+ top: 0;
+}
+.hours{
+    float: right;
+    top: 400px;
+    width:350px;
+    padding-left: 20px;
+    margin-right: 50px;
+	  margin-bottom: 25px;
+    border-left: 10px solid #bbea54;
+  }
+.welcome{
+    width:300px;
+    top:350px;
+    left:200px;
+	  padding-right: 5px;
+	  margin-bottom: 25px;
+}
+footer{
+    top:950px;
+    font-size: x-small;
+    margin-bottom:0;
+    padding-top: 90px;
+}

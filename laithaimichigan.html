@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+					<title> Lai Thai</title>
+				<meta charset="UTF-8">
+					<link rel="stylesheet" type="text/css" href="laithai.css">
+				<meta name="keywords" content="thailand, food, thai, lai thai, canton, michigan" />
+			</head>
+			<body>
+				<div id="page-wrap">
+					<div class="container">
+		<div class="jumbotron">
+			<h1 class="fresh"> Fresh Thai Food</h1>
+			<p>Authentic Family Restaurant <br>
+			44928 Ford Rd., Canton, Michigan <br>
+		(734) 459-8424</p>
+		</div>
+	</div>
+					<nav>
+								<ul>
+									<li> <a class="Home" href="laithaimichigan.html"> Home </a> </li>
+									<li><a class="About Us" href="aboutus.html"> About Us </a></li>
+									<li><a class="Menu" href="menu.html">Menu</a></li>
+									<li><a class="Meet The Staff" href="meetthestaff.html">Meet the Staff</a></li>
+									<li><a class="About Thai Food" href="aboutthaifood.html">About Thai Food</a></li>
+									<li><a class="Directions" href="directions.html">Directions</a></li>
+									<li><a class="Food" href="food.html">Food</a></li>
+									<li><a class="Contact" href="contactus.html">Contact</a> </li>
+									<li><a class="Site Map" href="sitemap.html"> Site Map</a></li>
+								</ul>
+							</nav>
+							<section id="maincontent">
+									<h1 class="delicious"> Delicious Thai Food </h1>
+									<!-- Slideshow container -->
+									<div class="show">
+									<div class="slideshow-container">
+									  <!-- Full-width images with number and caption text -->
+									  <div class="mySlides fade">
+									    <div class="numbertext">1 / 3</div>
+									    <img src="./images/ramanoodle.jpg" style="width:100%">
+									    <div class="text">Rama Noodle</div>
+									  </div>
+
+									  <div class="mySlides fade">
+									    <div class="numbertext">2 / 3</div>
+									    <img src="./images/img_0351.jpg" style="width:100%">
+									    <div class="text">Pineapple Crispy Chicken</div>
+									  </div>
+
+									  <div class="mySlides fade">
+									    <div class="numbertext">3 / 3</div>
+									    <img src= "./images/basilfriedrice.jpg" style="width:100%">
+									    <div class="text">Basil Fried Rice</div>
+									  </div>
+								</div>
+									<script>
+									var slideIndex = 0;
+										showSlides();
+									function showSlides() {
+  								  var i;
+  								  var slides = document.getElementsByClassName("mySlides");
+  								  for (i = 0; i < slides.length; i++) {
+      						  slides[i].style.display = "none";
+  							  }
+    						slideIndex++;
+    								if (slideIndex > slides.length) {slideIndex = 1}
+    						slides[slideIndex-1].style.display = "block";
+    						setTimeout(showSlides, 3000); // Change image every 2 seconds
+								}
+								</script>
+	</section>
+							<div class="hours">
+									<h3> Lai Thai Hours </h3>
+										<p>Lai Thai is located at 44928 Ford Rd., Canton, MI.<br> (734) 459-8424 <br>
+											Open 7 days a week. <br>
+											Monday thru Thursday - 11:00PM to 9:00PM <br>
+											Friday and Saturday - 12:00PM to 10:00PM <br>
+											Sunday - 4:00 PM to 9:00 PM</p>
+							</div>
+							<div class="welcome">
+									<h3> Welcome Message </h3>
+										<p>Lai Thai crafts authentic, fresh Thai food in southeast
+			 							Michigan. The friendly staff greet diners by name and inquire
+			 							about family. Every dish is made with care. Servers, Pat and
+			 							Charlie, will always inquire as to how spicy you want your food.</p>
+							</div>
+					<footer>
+									<p>&copy; 2018 All Rights Reserved - Designed by Monica Wolfson</p>
+					</footer>
+							</div>
+		</body>
+</html>

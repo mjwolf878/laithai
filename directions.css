@@ -1,0 +1,69 @@
+#page-wrap{
+    width:950px;
+    margin:10px auto;
+}
+header{
+    background-image:url(./images/laithaiemblem.jpg);
+    background-repeat: no-repeat;
+    margin-top:0;
+    margin-bottom:30px;
+    padding:0;
+    text-align:right;
+    height:100px;
+    width: 100%;
+}
+h5{
+    margin-top: 0;
+}
+header p{
+    float:right;
+    margin-right: 250px;
+}
+span{
+font-style: italic;
+}
+nav{
+      top:20px;
+       z-index:9999;
+       width: 100%;
+       height:50px;
+}
+ul {
+    list-style-type: none;
+    margin-top: 140px;
+    padding: 0;
+    background-color:#5d7a50;
+    position: absolute;
+    top: 0;
+    width: 70%;
+ }
+li {
+    float: left;
+    font-size: small;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color:#008000;
+}
+body{
+   background-color: #000000;
+   color: #ffffff;
+   border: 5px solid #bbea54;
+   font-family: Verdana, arial, Helvetica, sans-serif;
+}
+.map{
+  margin-top: 100px;
+  text-align:center;
+}
+footer{
+  margin-top: 200px;
+  margin-bottom:0;
+  font-size: x-small;
+  text-align: center;
+}
